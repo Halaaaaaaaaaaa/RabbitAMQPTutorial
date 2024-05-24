@@ -1,0 +1,6 @@
+rabbitmq\amqp\tutorials\tut2\Tut2Sender.class
+rabbitmq\amqp\tutorials\RabbitAmqpTutorialsRunner.class
+rabbitmq\amqp\tutorials\tut2\Tut2Config$ReceiverConfig.class
+rabbitmq\amqp\tutorials\tut2\Tut2Config.class
+rabbitmq\amqp\tutorials\tut2\Tut2Receiver.class
+rabbitmq\amqp\tutorials\RabbitAmqpTutorialApplication.class

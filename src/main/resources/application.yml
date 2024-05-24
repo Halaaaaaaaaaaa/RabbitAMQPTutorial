@@ -1,0 +1,17 @@
+
+spring:
+  profiles:
+    active: usage_message
+  rabbitmq:
+    host: 52.79.63.89
+    port: 5672
+    username: guest
+    password: guest
+
+logging:
+  level:
+    rabbitmq: INFO
+
+tutorial:
+  client:
+    duration: 10000
