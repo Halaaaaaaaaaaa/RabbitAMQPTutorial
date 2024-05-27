@@ -23,6 +23,8 @@ public class RabbitAmqpTutorialApplication {
             System.out.println("Sample usage: java -jar rabbit-tutorials.jar --spring.profiles.active=hello-world,sender");
             System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar --spring.profiles.active=work-queues,receiver");
             System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar --spring.profiles.active=work-queues,sender");
+            System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar" + "--spring.profiles.active=routing,receiver" + "--tutorial.client.duration=60000");
+            System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar" + "--spring.profiles.active=routing,sender" + "--tutorial.client.duration=60000");
         };
     }
 
