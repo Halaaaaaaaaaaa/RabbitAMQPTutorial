@@ -20,11 +20,13 @@ public class RabbitAmqpTutorialApplication {
     public CommandLineRunner usage() {
         return args -> {
             System.out.println("This app uses Spring Profiles to control its behavior.\n");
-            System.out.println("Sample usage: java -jar rabbit-tutorials.jar --spring.profiles.active=hello-world,sender");
-            System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar --spring.profiles.active=work-queues,receiver");
-            System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar --spring.profiles.active=work-queues,sender");
-            System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar" + "--spring.profiles.active=routing,receiver" + "--tutorial.client.duration=60000");
-            System.out.println("Sample usage: java -jar target/rabbitmq-tutorials.jar" + "--spring.profiles.active=routing,sender" + "--tutorial.client.duration=60000");
+            System.out.println("Sample usage: java -jar SpringTutorials-1.0-SNAPSHOT.jar --spring.profiles.active=hello-world,sender");
+            System.out.println("Sample usage: java -jar target/SpringTutorials-1.0-SNAPSHOT.jar --spring.profiles.active=work-queues,receiver");
+            System.out.println("Sample usage: java -jar target/SpringTutorials-1.0-SNAPSHOT.jar --spring.profiles.active=work-queues,sender");
+            System.out.println("Sample usage: java -jar target/SpringTutorials-1.0-SNAPSHOT.jar --spring.profiles.active=routing,receiver --tutorial.client.duration=60000");
+            System.out.println("Sample usage: java -jar target/SpringTutorials-1.0-SNAPSHOT.jar --spring.profiles.active=routing,sender --tutorial.client.duration=60000");
+            System.out.println("Sample usage: java -jar target/SpringTutorials-1.0-SNAPSHOT.jar --spring.profiles.active=topics,receiver --tutorial.client.duration=60000");
+            System.out.println("Sample usage: java -jar target/SpringTutorials-1.0-SNAPSHOT.jar --spring.profiles.active=topics,sender --tutorial.client.duration=60000");
         };
     }
 
