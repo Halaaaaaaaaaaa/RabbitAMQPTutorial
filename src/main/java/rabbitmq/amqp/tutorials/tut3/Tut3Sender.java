@@ -20,9 +20,9 @@ public class Tut3Sender {
     @Autowired
     private FanoutExchange fanout;
 
-    AtomicInteger dots = new AtomicInteger();
+    AtomicInteger dots = new AtomicInteger(0);
 
-    AtomicInteger count = new AtomicInteger();
+    AtomicInteger count = new AtomicInteger(0);
 
     @Scheduled(fixedDelay = 1000, initialDelay = 500)
     public void send() {
