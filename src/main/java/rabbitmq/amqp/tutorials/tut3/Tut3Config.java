@@ -58,5 +58,4 @@ public class Tut3Config {
     public Tut3Sender sender() {
         return new Tut3Sender();
     }
-
 }
